@@ -9,6 +9,7 @@ public class HaloPBO02  {
         System.out.println("Prodi     : Teknik Informatika                                 ");
         System.out.println("Semester  : 5                                                  ");
         System.out.println("Alasan    : Ingin mencoba mempelajari java lebih dalam         ");
+        System.out.println();
 
         System.out.println("Versi Java : " + System.getProperty("java.version"));
         System.out.println("Vendor JDK : " + System.getProperty("java.vendor"));
