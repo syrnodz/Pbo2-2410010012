@@ -1,0 +1,10 @@
+Top-Level Container: Akar jendela aplikasi yang berdiri sendiri (Contoh: JFrame). Intermediate Container: Wadah perantara untuk mengelompokkan komponen (Contoh: JPanel). Atomic Component: Komponen dasar untuk interaksi pengguna (Contoh: JButton).
+
+Agar tombol-tombol tersebut saling mengikat secara eksklusif, sehingga hanya satu yang bisa dipilih dalam satu waktu.
+
+JComboBox dipilih jika pilihan opsinya banyak (bentuk dropdown), sedangkan JRadioButton dipilih jika pilihannya sedikit dan ingin langsung terlihat semua.
+
+Karena kode di dalam initComponents() di-generate otomatis oleh NetBeans dan bisa tertimpa. Kode tambahan ditulis di luar blok abu-abu (setelah pemanggilan initComponents() di konstruktor).
+
+Karena tema (Look and Feel) harus dipasang sebelum komponen jendela dirender agar perubahannya teraplikasikan dengan benar.
+
