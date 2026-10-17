@@ -4,6 +4,8 @@
 
 ### Hasil commit git log --oneline p04-layout-manager
 
-<div aligh="center">
+<div align="center">
+
 ![Screenshot](img/screenshot-2026-10-17_12.03.32.png)
+
 </div>
