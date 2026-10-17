@@ -5,5 +5,5 @@
 ### Hasil commit git log --oneline p04-layout-manager
 
 <div aligh="center">
-[Hasil commit git log --oneline p04-layout-manager](img/screenshot-2026-10-17_12.03.32.png)
+![Screenshot](img/screenshot-2026-10-17_12.03.32.png)
 </div>
