@@ -1,0 +1,13 @@
+1. Komponen tidak otomatis menyesuaikan posisi/ukuran saat jendela di-resize dan Beda OS/resolusi/DPI bikin koordinat manual (setBounds) berantakan, Harus ngitung koordinat $x, y$ manual tiap nambah komponen baru.
+
+2. Ukuran komponen tetap (preferred size). Komponen melimpah kesamping/kebawah seperti teks paragraf, ukuran komponen dipaksa membesar memenuhi sel grid secara proporsional.
+
+3. weightx: Mengatur pembagian sisa ruang horizontal ekstra saat jendela dilebarkan. fill mengatur agar komponen melebar memenuhi ruang selnya (misal HORIZONTAL agar input text memanjang)
+
+4. Mencegah Gepeng: Agar form tidak dipaksa membengkak tinggi secara vertikal oleh BorderLayout.CENTER dan Menjaga form tetap menempel di atas dengan tinggi idealnya (preferred height).
+
+5. Group & Proximity
+Input data (NIM, Nama) dikelompokkan di atas, tombol aksi (Simpan, Edit) di bawah.
+
+- Alignment & Consistency
+Penggunaan layout grid sehingga posisi label dan ujung text field rata kiri-kanan lurus vertikal.
