@@ -3,7 +3,7 @@ Muhammad Ali Akbar 2410010012 5C
 
 IDE Menggunakan IntelliJ IDEA OSS
 ### Hasil screenshot log Commit
-[img/]
+[img/screenshot-2026-10-24_10.02.57.png]
 
 ### Hasil screenshot Properties, Events dan Tombol daftar
 [img/screenshot-2026-10-24_08.55.48.png]
