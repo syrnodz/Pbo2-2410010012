@@ -2,19 +2,17 @@
 Muhammad Ali Akbar 2410010012 5C
 
 IDE Menggunakan IntelliJ IDEA OSS
-### Hasil screenshot log Commit
-[img/screenshot-2026-10-24_10.02.57.png]
+###  Log Commit
+![Log Commit](img/screenshot-2026-10-24_10.02.57.png)
 
-### Hasil screenshot Properties, Events dan Tombol daftar
-[img/screenshot-2026-10-24_08.55.48.png]
+###  Properties, Events, dan Tombol Daftar
+![Properties & Events](img/screenshot-2026-10-24_08.55.48.png)
 
-[img/screenshot-20screenshot-2026-10-24_08.55.48.png]
+![Detail Tampilan 1](img/screenshot-2026-10-24_08.57.03.png)
 
-[img/screenshot-2026-10-24_08.57.03.png]
+![Detail Tampilan 2](img/screenshot-2026-10-24_08.57.43.png)
 
-[img/screenshot-2026-10-24_08.57.43.png]
-
-[img/screenshot-2026-10-24_08.59.44.png]
+![Detail Tampilan 3](img/screenshot-2026-10-24_08.59.44.png)
 
 ### Jawaban Refleksi p05-event-handling
 
