@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.ac.uniska.pbo2.p05.KonversiSuhu">
+  <grid id="27dc6" binding="isiPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="6">
+    <margin top="16" left="16" bottom="16" right="16"/>
+    <constraints>
+      <xy x="20" y="20" width="350" height="260"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="lbl1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Suhu dalam Celsius"/>
+        </properties>
+      </component>
+      <component id="cf" class="javax.swing.JTextField" binding="celsiusField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="lbl2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Konversi ke"/>
+        </properties>
+      </component>
+      <component id="sc" class="javax.swing.JComboBox" binding="satuanCombo">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Fahrenheit"/>
+            <item value="Kelvin"/>
+            <item value="Reamur"/>
+          </model>
+        </properties>
+      </component>
+      <component id="kb" class="javax.swing.JButton" binding="konversiButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Konversi"/>
+        </properties>
+      </component>
+      <component id="hl" class="javax.swing.JLabel" binding="hasilLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hasil akan tampil di sini"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

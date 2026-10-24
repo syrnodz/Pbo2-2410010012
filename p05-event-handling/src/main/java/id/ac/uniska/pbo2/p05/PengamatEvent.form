@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.ac.uniska.pbo2.p05.PengamatEvent">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="8" left="8" bottom="8" right="8"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="300"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="11111" layout-manager="FlowLayout" hgap="8" vgap="8" flow-align="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="kb" class="javax.swing.JButton" binding="klikButton">
+            <constraints/>
+            <properties>
+              <text value="Klik saya"/>
+            </properties>
+          </component>
+          <component id="fc" class="javax.swing.JCheckBox" binding="fiturCheck">
+            <constraints/>
+            <properties>
+              <text value="Aktifkan fitur"/>
+            </properties>
+          </component>
+          <component id="wc" class="javax.swing.JComboBox" binding="waktuCombo">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Pagi"/>
+                <item value="Siang"/>
+                <item value="Malam"/>
+              </model>
+            </properties>
+          </component>
+          <component id="if" class="javax.swing.JTextField" binding="isianField">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="22222">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="empty">
+          <size top="0" left="8" bottom="8" right="8"/>
+        </border>
+        <children>
+          <component id="la" class="javax.swing.JTextArea" binding="logArea">
+            <constraints/>
+            <properties>
+              <columns value="40"/>
+              <editable value="false"/>
+              <rows value="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
