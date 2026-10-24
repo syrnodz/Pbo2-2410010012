@@ -1,7 +1,7 @@
 ### Tugas Pbo2 p05-event-handling 2410010012
 Muhammad Ali Akbar 2410010012 5C
 
-
+IDE Menggunakan IntelliJ IDEA OSS
 ### Hasil screenshot log Commit
 [img/]
 
