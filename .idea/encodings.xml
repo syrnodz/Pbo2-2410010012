@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/p03-komponen-gui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-komponen-gui/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p04-layout-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p04-layout-manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p05-event-handling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p05-event-handling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p06-validasi-input/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p06-validasi-input/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p07-tabel-dan-menu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p07-tabel-dan-menu/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

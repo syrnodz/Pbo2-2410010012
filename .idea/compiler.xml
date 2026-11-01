@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="p05-event-handling" />
+        <module name="p04-layout-manager" />
+        <module name="p06-validasi-input" />
+        <module name="p03-komponen-gui" />
+        <module name="p07-tabel-dan-menu" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

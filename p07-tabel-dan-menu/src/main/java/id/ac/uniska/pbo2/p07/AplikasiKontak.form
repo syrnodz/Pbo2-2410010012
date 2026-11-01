@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.ac.uniska.pbo2.p07.AplikasiKontak">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="780" height="460"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a1234" binding="atasPanel" layout-manager="BorderLayout" hgap="8" vgap="0">
+        <margin top="12" left="4" bottom="8" right="12"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="empty"/>
+        <children>
+          <grid id="b1234" binding="tombolPanel" layout-manager="FlowLayout" alignment="0" hgap="8" vgap="0">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="t1111" class="javax.swing.JButton" binding="tambahButton">
+                <constraints/>
+                <properties>
+                  <text value="Tambah"/>
+                </properties>
+              </component>
+              <component id="u2222" class="javax.swing.JButton" binding="ubahButton">
+                <constraints/>
+                <properties>
+                  <text value="Ubah"/>
+                </properties>
+              </component>
+              <component id="h3333" class="javax.swing.JButton" binding="hapusButton">
+                <constraints/>
+                <properties>
+                  <text value="Hapus"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="c4444" class="javax.swing.JTextField" binding="cariField">
+            <constraints border-constraint="East"/>
+            <properties>
+              <columns value="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="s5555" binding="tabelScroll">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="empty"/>
+        <children>
+          <component id="t6666" class="javax.swing.JTable" binding="kontakTable">
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="l7777" class="javax.swing.JLabel" binding="statusLabel">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Menampilkan 0 dari 0 kontak"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
