@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="id.ac.uniska.pbo2.p06.FormAnggota">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout" row-count="17" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="4">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="650"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="lblJudul" class="javax.swing.JLabel" binding="judulLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="FORM REGISTRASI ANGGOTA"/>
+        </properties>
+      </component>
+      <component id="lblKet" class="javax.swing.JLabel" binding="keteranganLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Isi data diri Anda dengan benar untuk mendaftar."/>
+        </properties>
+      </component>
+      <component id="lblSecData" class="javax.swing.JLabel" binding="dataAnggotaLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" top="10" left="0" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Data Anggota"/>
+        </properties>
+      </component>
+      <component id="c1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="NPM :"/>
+        </properties>
+      </component>
+      <component id="c2" class="javax.swing.JTextField" binding="npmField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c3" class="javax.swing.JLabel" binding="npmPesanLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nama :"/>
+        </properties>
+      </component>
+      <component id="c5" class="javax.swing.JTextField" binding="namaField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c6" class="javax.swing.JLabel" binding="namaPesanLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="cProdiLbl" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Program Studi :"/>
+        </properties>
+      </component>
+      <component id="cProdiCmb" class="javax.swing.JComboBox" binding="prodiCombo">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="-- Pilih Program Studi --"/>
+            <item value="Teknik Informatika"/>
+            <item value="Sistem Informasi"/>
+          </model>
+        </properties>
+      </component>
+      <component id="cProdiPesan" class="javax.swing.JLabel" binding="prodiPesanLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="cLblJenis" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Jenis Anggota :"/>
+        </properties>
+      </component>
+      <grid id="panelRadio" class="javax.swing.JPanel" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="0">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="r1" class="javax.swing.JRadioButton" binding="mahasiswaRadio">
+            <constraints/>
+            <properties>
+              <selected value="true"/>
+              <text value="Mahasiswa"/>
+            </properties>
+          </component>
+          <component id="r2" class="javax.swing.JRadioButton" binding="dosenRadio">
+            <constraints/>
+            <properties>
+              <text value="Dosen"/>
+            </properties>
+          </component>
+          <component id="r3" class="javax.swing.JRadioButton" binding="umumRadio">
+            <constraints/>
+            <properties>
+              <text value="Umum"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="lblSecKontak" class="javax.swing.JLabel" binding="kontakLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" top="10" left="0" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Informasi Kontak"/>
+        </properties>
+      </component>
+
+      <!-- Row Email -->
+      <component id="c7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Email :"/>
+        </properties>
+      </component>
+      <component id="c8" class="javax.swing.JTextField" binding="emailField">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c9" class="javax.swing.JLabel" binding="emailPesanLabel">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="c10" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="No. HP :"/>
+        </properties>
+      </component>
+      <component id="c11" class="javax.swing.JTextField" binding="hpField">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c12" class="javax.swing.JLabel" binding="hpPesanLabel">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <component id="lblAlamat" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Alamat :"/>
+        </properties>
+      </component>
+      <scrollpane id="scrollAlamat">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="txtAlamat" class="javax.swing.JTextArea" binding="alamatArea">
+            <properties>
+              <rows value="3"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="chkSetuju" class="javax.swing.JCheckBox" binding="setujuCheck">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Saya menyetujui syarat dan ketentuan."/>
+        </properties>
+      </component>
+      <grid id="b_panel" class="javax.swing.JPanel" layout-manager="FlowLayout" hgap="10" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" top="10" left="0" bottom="0" right="0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="lblStatus" class="javax.swing.JLabel" binding="statusLabel">
+            <constraints/>
+            <properties>
+              <text value=" "/>
+            </properties>
+          </component>
+          <component id="btn1" class="javax.swing.JButton" binding="daftarButton">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Daftar"/>
+            </properties>
+          </component>
+          <component id="btn2" class="javax.swing.JButton" binding="batalButton">
+            <constraints/>
+            <properties>
+              <text value="Batal"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
