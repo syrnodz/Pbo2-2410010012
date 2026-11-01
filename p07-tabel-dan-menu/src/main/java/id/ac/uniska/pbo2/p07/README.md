@@ -3,7 +3,7 @@ Muhammad Ali Akbar 2410010012 5C
 
 IDE Menggunakan IntelliJ IDEA OSS
 ###  Log Commit
-![Log Commit](img/screenshot-2026-11-01_12.57.01.png)
+![Log Commit](img/hasil_log.png)
 
 
 ### Jawaban Refleksi p05-event-handling
